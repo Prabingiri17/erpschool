@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,30,0.5),rgba(0,20,0,0.4)),url(./img/2_50.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+}
+
+.logo{
+	font-family: Agency FB;
+	border:1px groove Ghostwhite;
+	width:80px;
+	padding:10px;
+	text-align: center;
+	margin-top:25px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.logo h2{
+	color:ghostwhite;
+}
+.first{
+	margin-left: 5%;
+	font-family: sans-serif;
+	position: absolute;
+	color: ghostwhite;
+}
+.first h1{
+	margin-top: 200px;
+	font-size: 40px;
+	font-family: Agency FB;
+	text-transform: uppercase;
+    text-shadow: transparent;
+}
+.first p{
+	width:1000px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: monospace;
+	letter-spacing: 2px;
+}
+
+.first a{
+	background-color:#0D4B51 ;
+	color:ghostwhite;
+	position: absolute;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 60px;
+	margin-left:-300px;
+	padding:15px 30px;
+}
+
+.nav{
+	display: flex;
+	justify-content: flex-end;
+	align-items: stretch;
+}
+
+.nav li{
+	margin-top: 20px;
+	position: relative;
+	margin-left: 30px;
+	margin-right:10px;
+	
+}
+
+.nav li a{
+	text-transform: uppercase;
+	text-decoration:none;
+	font-size: 18px;
+	font-family: Agency FB;
+	color:ghostwhite;
+	padding:5px 15px;
+}
+.nav li a:hover{
+	border: 1px solid ghostwhite;
+}
